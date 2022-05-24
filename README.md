@@ -23,8 +23,8 @@ void *content;
 struct s_list *next; 
 } t_list;
 ```
-void \*content
+**Void \*content**
 > The data contained in the node that allows to store any kind of data.
 
-struct s_list \*next
+**Struct s_list \*next**
 > The address of the next node, or NULL if the next node is the last one.
