@@ -16,3 +16,12 @@ Disclaimer: Reinventing the wheel is bad, 42 makes us do this just so we can hav
 |                |                 |                 |                |                |ft_lstiter      |
 |                |                 |                 |                |                |ft_lstmap       |
 
+# Content of List(Struct)
+```
+typedef struct s_list {
+void *content;
+struct s_list *next; 
+} t_list;
+```
+content: The data contained in the node.
+void * allows to store any kind of data.
